@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="draw.io" pages="2">
   <diagram name="01 Процесс ТКП" id="tkp-process">
-    <mxGraphModel dx="2384" dy="1081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="1120" math="0" shadow="0">
+    <mxGraphModel dx="1172" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="1120" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,7 +189,7 @@
         <mxCell id="footer" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontColor=#65758A;fontSize=15;" value="Границы: от получения запроса до отправки ТКП. Переговоры после отправки и исполнение заказа — за пределами схемы.&#xa;Длительности, используемые программы и реальные должности пока не подтверждены. Вопросы для правки — на второй странице." vertex="1">
           <mxGeometry height="68" width="1830" x="40" y="1020" as="geometry" />
         </mxCell>
-        <mxCell id="HByfbKaNo-GUg5IlXrN7-4" edge="1" parent="1" source="HByfbKaNo-GUg5IlXrN7-3" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;fillColor=#FF3333;" value="">
+        <mxCell id="HByfbKaNo-GUg5IlXrN7-4" edge="1" parent="1" source="HByfbKaNo-GUg5IlXrN7-3" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;fillColor=#f8cecc;strokeColor=#b85450;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="870" y="780" as="sourcePoint" />
             <mxPoint x="930" y="760" as="targetPoint" />
