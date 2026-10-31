@@ -1,212 +1,270 @@
-<mxfile host="app.diagrams.net" agent="draw.io" pages="2">
+<mxfile host="app.diagrams.net" agent="draw.io" pages="3" version="29.0.3">
   <diagram name="01 Процесс ТКП" id="tkp-process">
-    <mxGraphModel dx="1172" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="1120" math="0" shadow="0">
+    <mxGraphModel dx="1760" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1590" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=27;fontStyle=1;" value="Подготовка ТКП на КРУ — текущий процесс" vertex="1">
-          <mxGeometry height="40" width="1780" x="40" y="25" as="geometry" />
+        <mxCell id="title" value="Подготовка ТКП — текущий процесс" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontColor=#23364D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="25" width="1660" height="50" />
         </mxCell>
-        <mxCell id="sub" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontColor=#65758A;fontSize=15;" value="Черновик для корректировки • 22.10.2026 • Основа: обсуждение и предоставленный калькулятор" vertex="1">
-          <mxGeometry height="32" width="1780" x="40" y="72" as="geometry" />
+        <mxCell id="sub" value="Обновлено по рукописной схеме • 31.10.2026 • Детали работ — лист 02; данные и уточнения — лист 03" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#65758A;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="85" width="1660" height="44" />
         </mxCell>
-        <mxCell id="legend" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=15;fontColor=#6E592A;" value="Синие блоки — работа с данными калькулятора. Белые блоки — предполагаемые этапы. * Роли и порядок согласования уточнить." vertex="1">
-          <mxGeometry height="38" width="1840" x="40" y="112" as="geometry" />
+        <mxCell id="request" value="ЗАКАЗЧИК&#10;Передать запрос: ОЛ / ТЗ / приложения" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#EAF5ED;strokeColor=#83A889;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="150" width="400" height="80" />
         </mxCell>
-        <mxCell id="phase0" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=15;fontStyle=1;" value="1. Запрос" vertex="1">
-          <mxGeometry height="30" width="220" x="230" y="164" as="geometry" />
+        <mxCell id="register" value="МЕНЕДЖЕР&#10;Принять запрос; сформировать заявку&#10;в Битрикс; подготовить «ПГ»¹" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="280" width="400" height="100" />
         </mxCell>
-        <mxCell id="phase1" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=15;fontStyle=1;" value="2. Техническая проработка" vertex="1">
-          <mxGeometry height="30" width="440" x="460" y="164" as="geometry" />
+        <mxCell id="prepare" value="ПОДГОТОВКА ТКП&#10;Определить необходимые работы&#10;и оформить запросы исполнителям" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="430" width="400" height="100" />
         </mxCell>
-        <mxCell id="phase2" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=15;fontStyle=1;" value="3. Цены" vertex="1">
-          <mxGeometry height="30" width="220" x="920" y="164" as="geometry" />
+        <mxCell id="complete" value="Данных&#10;достаточно?" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rhombus;spacing=8;strokeWidth=1.5;fillColor=#FFF4D7;strokeColor=#C2A35D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="710" y="580" width="220" height="120" />
         </mxCell>
-        <mxCell id="phase3" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=15;fontStyle=1;" value="4. Расчёт" vertex="1">
-          <mxGeometry height="30" width="220" x="1150" y="164" as="geometry" />
+        <mxCell id="ask" value="ИСПОЛНИТЕЛЬ → МЕНЕДЖЕР&#10;Сформировать запрос недостающих данных&#10;Каналы: Битрикс / СЭД / почта" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#FFF4D7;strokeColor=#C2A35D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1140" y="585" width="450" height="110" />
         </mxCell>
-        <mxCell id="phase4" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=15;fontStyle=1;" value="5. Согласование" vertex="1">
-          <mxGeometry height="30" width="220" x="1380" y="164" as="geometry" />
+        <mxCell id="refine" value="МЕНЕДЖЕР&#10;Получить уточнения и дополнить заявку" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#F5F7FA;strokeColor=#AAB7C6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1140" y="400" width="450" height="90" />
         </mxCell>
-        <mxCell id="phase5" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=15;fontStyle=1;" value="6. Выпуск" vertex="1">
-          <mxGeometry height="30" width="220" x="1610" y="164" as="geometry" />
+        <mxCell id="split" value="И / ИЛИ" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rhombus;strokeWidth=1.5;fillColor=#FFF4D7;strokeColor=#C2A35D;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="750" y="745" width="140" height="90" />
         </mxCell>
-        <mxCell id="lane0" parent="1" style="shape=swimlane;horizontal=0;startSize=170;html=0;fillColor=#F7F9FC;swimlaneFillColor=#F7F9FC;strokeColor=#D6DFE9;strokeWidth=1;collapsible=0;" value="" vertex="1">
-          <mxGeometry height="270" width="1850" x="40" y="200" as="geometry" />
+        <mxCell id="split-note" value="Выполняется одна или обе запрошенные ветки.&#10;Если новая работа не нужна — использовать имеющиеся результаты." style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#65758A;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1040" y="710" width="610" height="55" />
         </mxCell>
-        <mxCell id="role0" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontStyle=1;fontSize=17;" value="Заказчик" vertex="1">
-          <mxGeometry height="100" width="140" x="55" y="225" as="geometry" />
+        <mxCell id="calc" value="РАСЧЁТ СЕБЕСТОИМОСТИ&#10;Запросы в смежные подразделения и по ПКИ;&#10;расчёт оборудования, стоимость и проверка&#10;Инструменты: ERP, «ПО БМЗ»¹" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="890" width="440" height="150" />
         </mxCell>
-        <mxCell id="lane1" parent="1" style="shape=swimlane;horizontal=0;startSize=170;html=0;fillColor=#FFFFFF;swimlaneFillColor=#FFFFFF;strokeColor=#D6DFE9;strokeWidth=1;collapsible=0;" value="" vertex="1">
-          <mxGeometry height="160" width="1850" x="40" y="360" as="geometry" />
+        <mxCell id="spec" value="РАЗРАБОТКА ТО, ТТ/КД¹&#10;Материалы, запросы, техданные ПКИ,&#10;отступления и проверка документов&#10;КОМПАС, PDF, Word, Excel" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1050" y="890" width="440" height="150" />
         </mxCell>
-        <mxCell id="role1" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontStyle=1;fontSize=17;" value="Ответственный&#xa;за ТКП *" vertex="1">
-          <mxGeometry height="100" width="140" x="55" y="385" as="geometry" />
+        <mxCell id="draft" value="ОТВЕТСТВЕННЫЙ МЕНЕДЖЕР&#10;Получить все необходимые результаты:&#10;проверить расчёт, согласовать документы,&#10;составить итоговые документы ТКП¹" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#EAF5ED;strokeColor=#83A889;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="1110" width="400" height="130" />
         </mxCell>
-        <mxCell id="lane2" parent="1" style="shape=swimlane;horizontal=0;startSize=170;html=0;fillColor=#F7F9FC;swimlaneFillColor=#F7F9FC;strokeColor=#D6DFE9;strokeWidth=1;collapsible=0;" value="" vertex="1">
-          <mxGeometry height="160" width="1850" x="40" y="520" as="geometry" />
+        <mxCell id="release-heading" value="СОГЛАСОВАНИЕ И ВЫПУСК ТКП&#10;Продолжение исходной схемы — уточнить" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#7B6A43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1110" y="1245" width="530" height="65" />
         </mxCell>
-        <mxCell id="role2" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontStyle=1;fontSize=17;" value="Технический&#xa;специалист *" vertex="1">
-          <mxGeometry height="100" width="140" x="55" y="545" as="geometry" />
+        <mxCell id="fix" value="Доработать расчёт / документы&#10;по замечаниям" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#F5F7FA;strokeColor=#AAB7C6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="1350" width="320" height="80" />
         </mxCell>
-        <mxCell id="lane3" parent="1" style="shape=swimlane;horizontal=0;startSize=170;html=0;fillColor=#FFFFFF;swimlaneFillColor=#FFFFFF;strokeColor=#D6DFE9;strokeWidth=1;collapsible=0;" value="" vertex="1">
-          <mxGeometry height="160" width="1850" x="40" y="680" as="geometry" />
+        <mxCell id="approval" value="ТКП&#10;согласовано?" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rhombus;spacing=8;fillColor=#F5F7FA;strokeColor=#AAB7C6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="710" y="1330" width="220" height="120" />
         </mxCell>
-        <mxCell id="HByfbKaNo-GUg5IlXrN7-3" parent="lane3" style="shape=dataStorage;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#F7FF26;" value="1С ERP: справочник цен на ПКИ" vertex="1">
-          <mxGeometry height="80" width="100" x="720" y="40" as="geometry" />
+        <mxCell id="send" value="МЕНЕДЖЕР → ЗАКАЗЧИК&#10;Отправить ТКП; зафиксировать&#10;версию и дату отправки" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#F5F7FA;strokeColor=#AAB7C6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1110" y="1345" width="400" height="90" />
         </mxCell>
-        <mxCell id="role3" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontStyle=1;fontSize=17;" value="Закупки *" vertex="1">
-          <mxGeometry height="100" width="140" x="55" y="705" as="geometry" />
+        <mxCell id="footer" value="Синие / зелёные блоки — действия по скану и сохранённые данные. Пунктир — этапы прежней схемы, не подтверждённые сканом.&#10;¹ Неоднозначные сокращения и название итоговых документов вынесены на лист 03. Схема описывает текущую работу; автоматизация здесь не добавлялась." style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#65758A;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1500" width="1660" height="65" />
         </mxCell>
-        <mxCell id="lane4" parent="1" style="shape=swimlane;horizontal=0;startSize=170;html=0;fillColor=#F7F9FC;swimlaneFillColor=#F7F9FC;strokeColor=#D6DFE9;strokeWidth=1;collapsible=0;" value="" vertex="1">
-          <mxGeometry height="160" width="1850" x="40" y="840" as="geometry" />
+        <mxCell id="e01" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="request" target="register">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="role4" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontStyle=1;fontSize=17;" value="Согласующий *" vertex="1">
-          <mxGeometry height="100" width="140" x="55" y="865" as="geometry" />
+        <mxCell id="e02" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="register" target="prepare">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="request" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;" value="Передать запрос&#xa;Опросный лист / ТЗ&#xa;и приложения" vertex="1">
-          <mxGeometry height="76" width="190" x="240" y="242" as="geometry" />
+        <mxCell id="e03" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="prepare" target="complete">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="register" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;" value="1. Принять запрос&#xa;Зафиксировать объект,&#xa;состав и срок подготовки" vertex="1">
-          <mxGeometry height="80" width="190" x="240" y="400" as="geometry" />
+        <mxCell id="e04" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#B5822A;fontFamily=Arial;fontSize=16;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="complete" target="ask">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="analyze" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#EAF3FD;strokeColor=#7DA4D0;" value="2. Разобрать требования&#xa;Перечень ячеек, токи,&#xa;исполнения и опции" vertex="1">
-          <mxGeometry height="80" width="190" x="470" y="560" as="geometry" />
+        <mxCell id="e05" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#B5822A;fontFamily=Arial;fontSize=16;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;dashed=1;" edge="1" parent="1" source="ask" target="refine">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="complete" parent="1" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=14;fontColor=#5C4715;fillColor=#FFF4D7;strokeColor=#C2A35D;strokeWidth=1.4;spacing=6;" value="Данных&#xa;достаточно?" vertex="1">
-          <mxGeometry height="96" width="130" x="700" y="552" as="geometry" />
-        </mxCell>
-        <mxCell id="ask" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;" value="Уточнить требования&#xa;Собрать вопросы&#xa;и направить заказчику" vertex="1">
-          <mxGeometry height="80" width="190" x="690" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="reply" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;" value="Дать уточнения&#xa;Передать недостающие&#xa;данные / новую редакцию" vertex="1">
-          <mxGeometry height="76" width="190" x="690" y="242" as="geometry" />
-        </mxCell>
-        <mxCell id="spec" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#EAF3FD;strokeColor=#7DA4D0;" value="3. Сформировать состав&#xa;Ячейки и комплектующие&#xa;на одну ячейку" vertex="1">
-          <mxGeometry height="100" width="190" x="930" y="560" as="geometry" />
-        </mxCell>
-        <mxCell id="pricing" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#EAF3FD;strokeColor=#7DA4D0;" value="4. Проверить цены&#xa;Использовать прайс /&#xa;запросить предложения" vertex="1">
-          <mxGeometry height="80" width="190" x="930" y="720" as="geometry" />
-        </mxCell>
-        <mxCell id="prices" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#EAF3FD;strokeColor=#7DA4D0;" value="5. Обновить справочник&#xa;Цены оборудования,&#xa;работ и коэффициенты" vertex="1">
-          <mxGeometry height="80" width="190" x="1160" y="720" as="geometry" />
-        </mxCell>
-        <mxCell id="calc" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#EAF3FD;strokeColor=#7DA4D0;" value="6. Рассчитать стоимость&#xa;Оборудование, сборка,&#xa;испытания и сервис;&#xa;наценка и НДС" vertex="1">
-          <mxGeometry height="104" width="190" x="1160" y="382" as="geometry" />
-        </mxCell>
-        <mxCell id="draft" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;" value="7. Подготовить ТКП&#xa;Состав поставки, цена,&#xa;условия и исключения" vertex="1">
-          <mxGeometry height="66" width="190" x="1390" y="370" as="geometry" />
-        </mxCell>
-        <mxCell id="fix" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fontSize=13;" value="Доработать расчёт / ТКП&#xa;по замечаниям" vertex="1">
-          <mxGeometry height="38" width="190" x="1390" y="455" as="geometry" />
-        </mxCell>
-        <mxCell id="approval" parent="1" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=14;fontColor=#5C4715;fillColor=#FFF4D7;strokeColor=#C2A35D;strokeWidth=1.4;spacing=6;" value="8. ТКП&#xa;согласовано?" vertex="1">
-          <mxGeometry height="96" width="130" x="1420" y="870" as="geometry" />
-        </mxCell>
-        <mxCell id="send" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;" value="9. Отправить ТКП&#xa;Зафиксировать версию&#xa;и дату отправки" vertex="1">
-          <mxGeometry height="80" width="190" x="1620" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="received" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#EDF6EE;strokeColor=#83A889;" value="ТКП получено&#xa;Конец рассматриваемого&#xa;процесса" vertex="1">
-          <mxGeometry height="76" width="190" x="1620" y="242" as="geometry" />
-        </mxCell>
-        <mxCell id="e01" edge="1" parent="1" source="request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="register" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e02" edge="1" parent="1" source="register" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" target="analyze" value="">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e06" value="Уточнённая заявка" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#B5822A;fontFamily=Arial;fontSize=16;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=1;entryY=0.5;dashed=1;" edge="1" parent="1" source="refine" target="register">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="565" y="440" />
+              <mxPoint x="1640" y="445" />
+              <mxPoint x="1640" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e03" edge="1" parent="1" source="analyze" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="complete" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e07" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="complete" target="split">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="e04" edge="1" parent="1" source="complete" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#B5822A;fontFamily=Arial;fontSize=13;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="ask" value="Нет">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e05" edge="1" parent="1" source="ask" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#B5822A;fontFamily=Arial;fontSize=13;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="reply" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e06" edge="1" parent="1" source="reply" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#B5822A;fontFamily=Arial;fontSize=13;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="analyze" value="Уточнённые данные">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e08" value="Нужен расчёт" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="split" target="calc">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="565" y="280" />
+              <mxPoint x="490" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e07" edge="1" parent="1" source="complete" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="spec" value="Да">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e08" edge="1" parent="1" source="spec" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="pricing" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e09" edge="1" parent="1" source="pricing" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="prices" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e10" edge="1" parent="1" source="prices" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="calc" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e11" edge="1" parent="1" source="spec" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=1;dashed=1;" target="calc" value="Комплектация">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e09" value="Нужна разработка" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="split" target="spec">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="1255" y="600" />
+              <mxPoint x="1270" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e12" edge="1" parent="1" source="calc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="draft" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e13" edge="1" parent="1" source="draft" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="approval" value="На согласование">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e10" value="На проверку" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="calc" target="draft">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="1600" y="403" />
-              <mxPoint x="1600" y="918" />
+              <mxPoint x="490" y="1175" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e14" edge="1" parent="1" source="approval" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#B5822A;fontFamily=Arial;fontSize=13;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="fix" value="Нет: замечания">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e15" edge="1" parent="1" source="fix" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#B5822A;fontFamily=Arial;fontSize=13;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.8;" target="calc" value="">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e11" value="На согласование" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" edge="1" parent="1" source="spec" target="draft">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="1368" y="474" />
-              <mxPoint x="1368" y="466" />
+              <mxPoint x="1270" y="1175" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e16" edge="1" parent="1" source="approval" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=1;" target="send" value="Да">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e12" value="Новых работ не требуется" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0;entryY=0.2;" edge="1" parent="1" source="prepare" target="draft">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="1715" y="918" />
+              <mxPoint x="160" y="480" />
+              <mxPoint x="160" y="1136" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e17" edge="1" parent="1" source="send" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#526B88;fontFamily=Arial;fontSize=13;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="received" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;" edge="1" parent="1" source="draft" target="approval">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="footer" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontColor=#65758A;fontSize=15;" value="Границы: от получения запроса до отправки ТКП. Переговоры после отправки и исполнение заказа — за пределами схемы.&#xa;Длительности, используемые программы и реальные должности пока не подтверждены. Вопросы для правки — на второй странице." vertex="1">
-          <mxGeometry height="68" width="1830" x="40" y="1020" as="geometry" />
+        <mxCell id="e14" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#B5822A;fontFamily=Arial;fontSize=16;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;dashed=1;" edge="1" parent="1" source="approval" target="fix">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="HByfbKaNo-GUg5IlXrN7-4" edge="1" parent="1" source="HByfbKaNo-GUg5IlXrN7-3" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;fillColor=#f8cecc;strokeColor=#b85450;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="870" y="780" as="sourcePoint" />
-            <mxPoint x="930" y="760" as="targetPoint" />
+        <mxCell id="e15" value="Исправленные результаты" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#B5822A;fontFamily=Arial;fontSize=16;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.25;entryY=1;dashed=1;" edge="1" parent="1" source="fix" target="draft">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="430" y="1260" />
+              <mxPoint x="720" y="1260" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;" edge="1" parent="1" source="approval" target="send">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="02 Данные и уточнения" id="tkp-notes">
-    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1230" math="0" shadow="0">
+  <diagram name="02 Расчёт и разработка" id="tkp-workstreams">
+    <mxGraphModel dx="1900" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1440" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Расчёт себестоимости и разработка документации" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontColor=#23364D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="25" width="1800" height="50" />
+        </mxCell>
+        <mxCell id="sub" value="Обе ветки запускаются по необходимости • Нехватка данных → запрос ответственному менеджеру: Битрикс / СЭД / почта" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#65758A;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="85" width="1800" height="44" />
+        </mxCell>
+        <mxCell id="cost-title" value="РАСЧЁТ СЕБЕСТОИМОСТИ" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#23364D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="155" width="760" height="45" />
+        </mxCell>
+        <mxCell id="eng-title" value="РАЗРАБОТКА ТО, ТТ/КД¹" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#23364D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1040" y="155" width="780" height="45" />
+        </mxCell>
+        <mxCell id="cost-request" value="Получен запрос на расчёт&#10;Достаточность данных проверена" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#EAF5ED;strokeColor=#83A889;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="230" width="460" height="85" />
+        </mxCell>
+        <mxCell id="eng-request" value="Получен запрос на разработку ТО/КД&#10;Достаточность данных проверена" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#EAF5ED;strokeColor=#83A889;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="230" width="460" height="85" />
+        </mxCell>
+        <mxCell id="cost-tools" value="ERP, «ПО БМЗ»¹" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#65758A;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="330" width="460" height="35" />
+        </mxCell>
+        <mxCell id="eng-tools" value="КОМПАС, PDF, Word, Excel" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#65758A;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="330" width="500" height="35" />
+        </mxCell>
+        <mxCell id="cost-depts" value="1. Запросить данные&#10;в смежных подразделениях" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="400" width="460" height="95" />
+        </mxCell>
+        <mxCell id="pricing" value="2. Запросить ПКИ; проверить цены&#10;(источник цен сохранён из исходной схемы)" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="545" width="460" height="95" />
+        </mxCell>
+        <mxCell id="cost-equipment" value="3. Рассчитать оборудование&#10;В скане: «Щит»¹" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="690" width="460" height="95" />
+        </mxCell>
+        <mxCell id="cost-value" value="4. Выставить стоимость" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="835" width="460" height="95" />
+        </mxCell>
+        <mxCell id="cost-check" value="5. Проверить расчёты" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="980" width="460" height="95" />
+        </mxCell>
+        <mxCell id="eng-materials" value="1. Собрать материалы" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="400" width="460" height="95" />
+        </mxCell>
+        <mxCell id="eng-depts" value="2. Направить запросы&#10;в смежные подразделения" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="545" width="460" height="95" />
+        </mxCell>
+        <mxCell id="eng-pki" value="3. Запросить технические данные на ПКИ" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="690" width="460" height="95" />
+        </mxCell>
+        <mxCell id="eng-deviations" value="4. Сформировать отступления" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="835" width="460" height="95" />
+        </mxCell>
+        <mxCell id="eng-check" value="5. Проверить ТО, ТТ/КД¹" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="980" width="460" height="95" />
+        </mxCell>
+        <mxCell id="procurement" value="ЗАКУПКИ&#10;Источник цен из исходной схемы" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="60" y="525" width="250" height="55" />
+        </mxCell>
+        <mxCell id="HByfbKaNo-GUg5IlXrN7-3" value="1С ERP:&#10;справочник цен&#10;на ПКИ" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;shape=dataStorage;shapeInside=1;fixedSize=1;fillColor=#FFF4D7;strokeColor=#C2A35D;strokeWidth=1.5;spacing=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="600" width="230" height="110" />
+        </mxCell>
+        <mxCell id="cost-done" value="РАСЧЁТ ВЫПОЛНЕН&#10;Передать ответственному менеджеру&#10;на проверку и составление&#10;итоговых документов ТКП¹" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#EAF5ED;strokeColor=#83A889;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="1140" width="460" height="130" />
+        </mxCell>
+        <mxCell id="eng-done" value="РАЗРАБОТКА ВЫПОЛНЕНА&#10;Передать ТО, ТТ/КД¹&#10;ответственному менеджеру&#10;на согласование" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#EAF5ED;strokeColor=#83A889;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1180" y="1140" width="460" height="130" />
+        </mxCell>
+        <mxCell id="c-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="cost-request" target="cost-depts">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="c-e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="cost-depts" target="pricing">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="c-e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="pricing" target="cost-equipment">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="c-e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="cost-equipment" target="cost-value">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="c-e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="cost-value" target="cost-check">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="c-e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="cost-check" target="cost-done">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="t-e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="eng-request" target="eng-materials">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="t-e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="eng-materials" target="eng-depts">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="t-e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="eng-depts" target="eng-pki">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="t-e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="eng-pki" target="eng-deviations">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="t-e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="eng-deviations" target="eng-check">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="t-e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#526B88;fontFamily=Arial;fontSize=16;fontColor=#526B88;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="eng-check" target="eng-done">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="HByfbKaNo-GUg5IlXrN7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeWidth=1.8;strokeColor=#B5822A;fontFamily=Arial;fontSize=16;fontColor=#B5822A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;" edge="1" parent="1" source="HByfbKaNo-GUg5IlXrN7-3" target="pricing">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="detail-footer" value="Порядок пунктов воспроизводит рукописный перечень и не задаёт обязательную последовательность между подразделениями.&#10;Закупки и 1С ERP сохранены из ранее исправленной вами схемы. Связь источника цен теперь привязана к блоку проверки цен.&#10;¹ Сокращения и нечёткие надписи требуют уточнения — см. лист 03." style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#65758A;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="60" y="1320" width="1780" height="85" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 Данные и уточнения" id="tkp-notes">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1510" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="n_title" value="Данные расчёта и вопросы для уточнения" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=27;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="40" y="25" width="1420" height="45" />
         </mxCell>
-        <mxCell id="n_sub" value="Эта страница помогает отделить подтверждённую структуру калькулятора от предположений о работе команды." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontColor=#65758A;" vertex="1" parent="1">
+        <mxCell id="n_sub" value="Сохранены факты исходного калькулятора; вопросы обновлены по рукописной схеме и вашим правкам. Версия 31.10.2026." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontColor=#65758A;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="40" y="82" width="1420" height="35" />
         </mxCell>
         <mxCell id="n_confirm" value="Что следует из предоставленного калькулятора" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontStyle=1;fontSize=20;" vertex="1" parent="1">
@@ -242,41 +300,47 @@
         <mxCell id="q0h" value="01 · Участники" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=17;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="40" y="655" width="690" height="36" />
         </mxCell>
-        <mxCell id="q0b" value="Кто принимает запрос, определяет комплектацию, рассчитывает цену и согласует ТКП? Какие действия выполняет один человек?" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
+        <mxCell id="q0b" value="Менеджер принимает запрос и формирует заявку в Битрикс; получает результаты на проверку / согласование. Уточнить подразделения и должности исполнителей расчёта, разработки и иных согласующих." style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="40" y="697" width="690" height="98" />
         </mxCell>
         <mxCell id="q1h" value="02 · Начало процесса" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=17;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="770" y="655" width="690" height="36" />
         </mxCell>
-        <mxCell id="q1b" value="Откуда приходит запрос? Где он регистрируется? Кто назначает исполнителя и срок подготовки?" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
+        <mxCell id="q1b" value="Регистрация в Битрикс подтверждена. Уточнить назначение исполнителей, приоритетов и сроков; состав обязательных входных данных; что означает «подготовка ПГ»." style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="770" y="697" width="690" height="98" />
         </mxCell>
         <mxCell id="q2h" value="03 · Техническая проработка" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=17;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="40" y="815" width="690" height="36" />
         </mxCell>
-        <mxCell id="q2b" value="Кто проверяет полноту опросного листа? Кто выбирает исполнения и комплектующие? Как передаются уточнения заказчику?" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
+        <mxCell id="q2b" value="Когда нужны расчёт и/или разработка? Чем различаются ТО/КД в запросе и ТО, ТТ/КД в результате? Кто утверждает отступления и комплектность технических документов?" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="40" y="857" width="690" height="98" />
         </mxCell>
         <mxCell id="q3h" value="04 · Цены и поставщики" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=17;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="770" y="815" width="690" height="36" />
         </mxCell>
-        <mxCell id="q3b" value="Кто обновляет цены? Когда запрашиваются предложения? Учитываются ли срок поставки, валюта, скидки и актуальность цены?" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
+        <mxCell id="q3b" value="Источник цен на ПКИ — 1С ERP (ваша правка). Уточнить владельца справочника, связь с расчётным ПО, обновление цен, сроки поставки, валюты, скидки и срок действия предложений." style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="770" y="857" width="690" height="98" />
         </mxCell>
         <mxCell id="q4h" value="05 · Согласование" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=17;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="40" y="975" width="690" height="36" />
         </mxCell>
-        <mxCell id="q4b" value="Какие согласования обязательны: техническое, цены / наценки, сроков и условий? Параллельные они или последовательные?" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
+        <mxCell id="q4b" value="Проверка расчёта и согласование документов ответственным менеджером подтверждены сканом. Дополнительные согласования цены, наценки, сроков и условий; полномочия и порядок выпуска ТКП пока не подтверждены." style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="40" y="1017" width="690" height="98" />
         </mxCell>
         <mxCell id="q5h" value="06 · Выпуск и сроки" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontSize=17;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="770" y="975" width="690" height="36" />
         </mxCell>
-        <mxCell id="q5b" value="В какой программе оформляется ТКП? Где хранится версия? Кто отправляет? Сколько длится работа и ожидание на каждом этапе?" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
+        <mxCell id="q5b" value="В скане нет финальной отправки заказчику: она сохранена из прежней схемы пунктиром. Уточнить шаблон и место хранения ТКП, версии, отправителя, длительности работ и ожиданий." style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#203047;strokeColor=#A9B8C8;strokeWidth=1.3;fillColor=#FFFFFF;spacing=10;fillColor=#FFF9EA;strokeColor=#D8BC7C;align=left;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="770" y="1017" width="690" height="98" />
         </mxCell>
-        <mxCell id="n_footer" value="Для проверки пройдите по одному недавнему заказу: входящий запрос → файлы расчёта → переписка с поставщиками → согласования → отправленное ТКП.&#xa;Запишите реальные возвраты и задержки. Идеи автоматизации добавляйте после фиксации текущего процесса." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontColor=#65758A;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="40" y="1150" width="1420" height="65" />
+        <mxCell id="n_footer" value="Границы процесса: от запроса заказчика до отправки ТКП (выпуск — по исходной схеме, требует подтверждения).&#10;Скан использован как источник фактов о процессе. Переписка, адреса и изображение вложения в публичный файл не включены." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontColor=#203047;fontSize=15;fontColor=#65758A;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1400" width="1420" height="70" />
+        </mxCell>
+        <mxCell id="ambiguities-title" value="Неоднозначные надписи в скане — сохранены без расшифровки" style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#23364D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1150" width="1420" height="40" />
+        </mxCell>
+        <mxCell id="ambiguities" value="«ПГ» — подготовка в блоке менеджера. «ПО БМЗ» — название расчётного ПО читается предположительно.&#10;«Щит» — подпись после «расчёт оборудования»; назначение уточнить. ТО, ТТ/КД — обозначения документации как в скане.&#10;На стрелке возврата расчёта: «итоговой РК и КП» (первое сокращение неразборчиво). На листах 01–02 использовано общее «итоговые документы ТКП».&#10;Ромб переформулирован как «Данных достаточно?»: Нет → запрос уточнений, Да → выполнение необходимых работ." style="fontFamily=Arial;fontColor=#23364D;fontSize=18;whiteSpace=wrap;html=0;rounded=1;arcSize=12;strokeWidth=1.5;spacing=14;fillColor=#EAF3FD;strokeColor=#7DA4D0;fillColor=#FFF4D7;strokeColor=#C2A35D;align=left;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1200" width="1420" height="160" />
         </mxCell>
       </root>
     </mxGraphModel>
